@@ -11,6 +11,11 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Leading author:** Daheng Wang (dwang8@nd.edu)
     - **Usage:** Given user behavior data (e.g., reading behaviors on News App), can we learn user representations that preserve spatiotemporal patterns of a variety of periodicity (e.g., hourly, weekly, and weekday patterns)? The representations can be used for demongraphic prediction (sex, age, etc.) and recommendation.
     - **Novelty:** It leverages the Calendar System as a knowledge graph to enhance graph neural networks on temporal graph data of user behaviors.
+  - **1.2.1. CoEvoGNN**
+    - **Paper:** *Learning Attribute-Structure Co-Evolutions in Dynamic Graphs* (**KDD-DLG 2020 Best Paper**) [\[download\]](http://www.meng-jiang.com/pubs/coevognns-dlg20/coevognns-dlg20-paper.pdf)
+    - **Leading author:** Daheng Wang (dwang8@nd.edu)
+    - **Usage:** It learns node embeddings for forecasting change of node attributes and birth and death of links over time.
+    - **Novelty:** It is a novel framework for modeling dynamic attributed graph sequence. It preserves the impact of earlier graphs on the current graph by embedding generation through the sequence. It has a temporal self-attention mechanism to model long-range dependencies in the evolution. Moreover, it optimizes model parameters jointly on two dynamic tasks, attribute inference and link prediction over time. So the model can capture the coevolutionary patterns of attribute change and link formation.
 - **1.2. Learning Node Complementarity**
   - **1.2.1. LearnSuc** [\[lab repo\]](https://github.com/DM2-ND/Learnsuc)
     - **Paper:** *Multi-Type Itemset Embedding for Learning Behavior Success* (**KDD 2018**) [\[download\]](http://www.meng-jiang.com/pubs/learnsuc-kdd18/learnsuc-kdd18-paper.pdf)
@@ -72,7 +77,7 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
   - **2.4.1. TFWIN** [\[lab repo\]](https://github.com/DM2-ND/TFWIN)
     - **Paper:** *A Novel Unsupervised Approach for Precise Temporal Slot Filling from Incomplete and Noisy Temporal Contexts* (**WWW 2019**) [\[download\]](http://www.meng-jiang.com/pubs/tfwin-www19/tfwin-www19-paper.pdf)
     - **Leading author:** Xueying Wang (xwang41@nd.edu)
-    - **Usage:** Can AI read news articles and then fill in temporal slots such as (vicente_fox, per:is_president_of, , [  ,  ]) as (entity, attribute, value, [beginTime, endTime])? The first slot  is the value of a specific attribute (e.g., country's president) for an entity (e.g., the person "vicente_fox"). Here the value should be a country's name. The second and third slots are the beginning and ending time points of the attribute value being valid.
+    - **Usage:** Can AI read news articles and then fill in temporal slots such as (vicente_fox, per:is_president_of, __, [ __ , __ ]) as (entity, attribute, value, [beginTime, endTime])? The first slot is the value of a specific attribute (e.g., country's president) for an entity (e.g., the person "vicente_fox"). Here the value should be a country's name. The second and third slots are the beginning and ending time points of the attribute value being valid.
     - **Novelty:** It is an unsupervised approach of two modules that mutually enhance each other: one is a reliability estimator on fact extractors conditionally to the temporal contexts; the other is a fact trustworthiness estimator based on the extractor’s reliability. The iterative learning process reduces the noise of the extractions.
 - **2.5. Intent Detection**
   - **2.5.1. ReferInt** [\[lab repo\]](https://github.com/DM2-ND/ReferInt)

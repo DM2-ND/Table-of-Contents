@@ -19,12 +19,12 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
 	  - Novelty: XXX
 
 **Chapter 2. Information Extraction** 
-- **2.1. XXX** 
-	- XXX [\[lab repo\]](https://github.com/DM2-ND/XXX) [\[src repo\]](https://github.com/)
-	  - Paper: *XXX* (XXX 20XX) [\[download\]](https://XXX)
-	  - Leading author: XXX (XXX@nd.edu)
-	  - Usage: XXX
-	  - Novelty: XXX
+- **2.1. Scientific Named Entity Recognition (SciNER)** 
+	- TriTrain [\[lab repo\]](https://github.com/DM2-ND/TriTrain) [\[src repo\]](https://github.com/QingkaiZeng/TriTrain)
+	  - Paper: *Tri-Train: Automatic Pre-Fine Tuning between Pre-Training and Fine-Tuning for SciNER* (EMNLP 2020) [\[download\]](https://www.aclweb.org/anthology/2020.findings-emnlp.429.pdf)
+	  - Leading author: Qingkai Zeng (qzeng@nd.edu)
+	  - Usage: Given a sentence "FDA has approved remdesivir for the treatment of COVID-19 in certain situations", can we detect "FDA: Organization", "remdesivir: Drug", and "COVID-19: disease"? This framework performs NER in scientific domains.
+	  - Novelty: It introduces a "pre-fine tuning" step between pre-training and fine-tuning to fast and effectively adapt NER models in new scientific domains.
 - **2.2. XXX** 
 	- XXX [\[lab repo\]](https://github.com/DM2-ND/XXX) [\[src repo\]](https://github.com/)
 	  - Paper: *XXX* (XXX 20XX) [\[download\]](https://XXX)

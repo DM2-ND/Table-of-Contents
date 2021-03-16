@@ -1,5 +1,8 @@
 # Table of Contents
-Introduction to DM2 repositories.
+
+Introduction to DM2-ND repositories (*Data Mining towards Decision Making* Laboratory [\[page\]](http://www.meng-jiang.com/lab.html) at the University of Notre Dame).
+
+Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
 
 **Chapter 1. Graph Machine Learning**
 - **1.1. XXX** 

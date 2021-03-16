@@ -47,19 +47,29 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Leading author:** Qingkai Zeng (qzeng@nd.edu)
     - **Usage:** Given a sentence "FDA has approved remdesivir for the treatment of COVID-19 in certain situations", can we detect "FDA: Organization", "remdesivir: Drug", and "COVID-19: disease"? This framework performs NER in scientific domains.
     - **Novelty:** It introduces a "pre-fine tuning" step between pre-training and fine-tuning to fast and effectively adapt NER models in new scientific domains.
-- **2.2. IE from Tabular Data**
-  - **2.2.1. Tablepedia** [\[lab repo\]](https://github.com/DM2-ND/Tablepedia)
+- **2.2. Scientific Knowledge Graph Construction (SciKG)** 
+  - **2.2.1. SciKG** [\[lab repo\]](https://github.com/DM2-ND/SciKG)
+    - **Paper:** *The Role of "Condition": A Novel Scientific Knowledge Graph Representation and Construction Model* (**KDD 2019**) [\[download\]](https://dl.acm.org/doi/10.1145/3292500.3330942)
+    - **Leading author:** Tianwen Jiang (tjiang2@nd.edu)
+    - **Usage:** It proposes a novel representation of SciKG and delivers a model to build the SciKG.
+    - **Novelty:** Conditions play an essential role in scientific observations, hypotheses, and statements. Unfortunately, existing scientific knowledge graphs (SciKGs) represent factual knowledge as a flat relational network of concepts, as same as the KGs in general domain, without considering the conditions of the facts being valid, which loses important contexts for inference and exploration. This work considers the conditions of factual claims.
+  - **2.2.1. MIMO_CFE** [\[lab repo\]](https://github.com/DM2-ND/MIMO_CFE) [\[src repo\]](https://github.com/twjiang/MIMO_CFE)
+    - **Paper:** *Multi-Input Multi-Output Sequence Labeling for Joint Extraction of Fact and Condition Tuples from Scientific Text* (**EMNLP 2019**) [\[download\]](http://www.meng-jiang.com/pubs/mimo-emnlp19/mimo-emnlp19-paper.pdf)
+    - **Leading author:** Tianwen Jiang (tjiang2@nd.edu)
+
+- **2.3. IE from Tabular Data**
+  - **2.3.1. Tablepedia** [\[lab repo\]](https://github.com/DM2-ND/Tablepedia)
     - **Paper:** *Experimental Evidence Extraction in Data Science with Hybrid Table Features and Ensemble Learning* (**WWW 2020**) [\[download\]](https://wyu97.github.io/papers/C2_WWW_2020.pdf)
     - **Leading author:** Wenhao Yu (wyu1@nd.edu)
     - **Usage:** Can we discover knowledge from tables of experimental results in data science literature? It offers a new data set and a tool.
     - **Novelty:** It extracts experimental evidences from data science papers in PDF format and builds up the first experimental database for related research.
-  - **2.2.2. TCN**
+  - **2.3.2. TCN**
     - **Paper:** *TCN: Table Convolutional Network for Web Table Interpretation* (**WWW 2021**) [\[download\]](https://arxiv.org/abs/2102.09460)
     - **Leading author:** Daheng Wang (dwang8@nd.edu)
     - **Usage:** Can we extract information from semi-structured webpages provides valuable long-tailed facts for augmenting knowledge graph?
     - **Novelty:** It is a novel relational table representation learning approach considering both the intra- and inter-table contextual information.
-- **2.3. Intent Detection**
-  - **2.3.1. ReferInt** [\[lab repo\]](https://github.com/DM2-ND/ReferInt)
+- **2.4. Intent Detection**
+  - **2.4.1. ReferInt** [\[lab repo\]](https://github.com/DM2-ND/ReferInt)
     - **Paper:** *Identifying Referential Intention with Heterogeneous Contexts* (**WWW 2020**) [\[download\]](https://dl.acm.org/doi/abs/10.1145/3366423.3380175)
     - **Leading author:** Wenhao Yu (wyu1@nd.edu)
     - **Usage:** Citing, quoting, and forwarding & commenting behaviors are widely seen in academia, news media, and social media. This work identifies the referential intention which motivates the action of using the referred (e.g., cited, quoted, and retweeted) source and content to support their claims.

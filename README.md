@@ -34,27 +34,32 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Usage:** Can we learn node representations in an *unsupervised* way on bipartite graphs for the tasks of outlier detection or dense block detection?
     - **Novelty:** This model uses unsupervised graph anomaly detection algorithms to produce pseudo labels to supervise graph neural network frameworks.
 
-**Chapter 2. Information Extraction** 
+**Chapter 2. Information Extraction (IE)** 
 - **2.1. Scientific Named Entity Recognition (SciNER)** 
   - **2.1.1. TriTrain** [\[lab repo\]](https://github.com/DM2-ND/TriTrain) [\[src repo\]](https://github.com/QingkaiZeng/TriTrain)
     - **Paper:** *Tri-Train: Automatic Pre-Fine Tuning between Pre-Training and Fine-Tuning for SciNER* (**EMNLP 2020**) [\[download\]](https://www.aclweb.org/anthology/2020.findings-emnlp.429.pdf)
     - **Leading author:** Qingkai Zeng (qzeng@nd.edu)
     - **Usage:** Given a sentence "FDA has approved remdesivir for the treatment of COVID-19 in certain situations", can we detect "FDA: Organization", "remdesivir: Drug", and "COVID-19: disease"? This framework performs NER in scientific domains.
     - **Novelty:** It introduces a "pre-fine tuning" step between pre-training and fine-tuning to fast and effectively adapt NER models in new scientific domains.
-- **2.2. XXX** 
-  - **2.2.1. XXX** [\[lab repo\]](https://github.com/DM2-ND/XXX) [\[src repo\]](https://github.com/)
-    - **Paper:** *XXX* (**XXX 20XX**) [\[download\]](https://XXX)
-    - **Leading author:** XXX (XXX@nd.edu)
-    - **Usage:** XXX
-    - **Novelty:** XXX
+- **2.2. IE from Tabular Data**
+  - **2.2.1. Tablepedia** [\[lab repo\]](https://github.com/DM2-ND/Tablepedia)
+    - **Paper:** *Experimental Evidence Extraction in Data Science with Hybrid Table Features and Ensemble Learning* (**WWW 2020**) [\[download\]](https://wyu97.github.io/papers/C2_WWW_2020.pdf)
+    - **Leading author:** Wenhao Yu (wyu1@nd.edu)
+    - **Usage:** Can we discover knowledge from tables of experimental results in data science literature? It offers a new data set and a tool.
+    - **Novelty:** It extracts experimental evidences from data science papers in PDF format and builds up the first experimental database for related research.
+  - **2.2.2. TCN**
+    - **Paper:** *TCN: Table Convolutional Network for Web Table Interpretation* (**WWW 2021**) [\[download\]](https://arxiv.org/abs/2102.09460)
+    - **Leading author:** Daheng Wang (dwang8@nd.edu)
+    - **Usage:** Can we extract information from semi-structured webpages provides valuable long-tailed facts for augmenting knowledge graph?
+    - **Novelty:** It is a novel relational table representation learning approach considering both the intra- and inter-table contextual information.
 
-**Chapter 3. Natural Language Generation**
+**Chapter 3. Natural Language Generation (NLG)**
 - **3.1. Methodlogies** 
   - **3.1.1. KENLG-Reading** [\[lab repo\]](https://github.com/DM2-ND/KENLG-Reading) [\[src repo\]](https://github.com/wyu97/KENLG-Reading)
     - **Paper:** *A Survey of Knowledge-enhanced Text Generation* (**arXiv**) [\[download\]](https://arxiv.org/abs/2010.04389)
     - **Leading author:** Wenhao Yu (wyu1@nd.edu)
     - **Usage:** It offers a long reading list to complement with the survey paper. Related literature in 2020-2021 has been added and discussed.
-    - **Novelty:** Enhancing natural language generation (NLG) with knowledge is a very popular research direction. However, there was not a comprehensive survey.
+    - **Novelty:** Enhancing NLG with knowledge is a very popular research direction. However, there was not a comprehensive survey.
 - **3.2. Question Answering** 
   - **3.2.1. CrossVAE** [\[lab repo\]](https://github.com/DM2-ND/CrossVAE)
     - **Paper:** *Crossing Variational Autoencoders for Answer Retrieval* (**ACL 2020**) [\[download\]](https://www.aclweb.org/anthology/2020.acl-main.498/)

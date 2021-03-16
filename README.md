@@ -72,3 +72,8 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Leading author:** Wenhao Yu (wyu1@nd.edu)
     - **Usage:** Given a question and a set of answer candidates, can we accurately retrieve the best answer?
     - **Novelty:** This model learns across two Variational Auto-Encoders that (a) generates answer from question and (b) generate question from answer, in order to better understand question/answer semantics.
+  - **3.2.2. TransTQA** [\[lab repo\]](https://github.com/DM2-ND/TransTQA)
+    - **Paper:** *A Technical Question Answering System with Transfer Learning* (**EMNLP 2020**) [\[download\]](https://www.aclweb.org/anthology/2020.emnlp-demos.13.pdf)
+    - **Leading author:** Wenhao Yu (wyu1@nd.edu)
+    - **Usage:** It is a novel system that offers automatic responses by retrieving proper answers based on correctly answered similar questions in the past.
+    - **Novelty:** It is built upon a siamese ALBERT network, which enables to respond quickly and accurately. It adopts a standard deep transfer learning strategy to improve its capability of supporting multiple technical domains.

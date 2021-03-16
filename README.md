@@ -33,6 +33,12 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Leading author:** Tong Zhao (tzhao2@nd.edu)
     - **Usage:** Can we learn node representations in an *unsupervised* way on bipartite graphs for the tasks of outlier detection or dense block detection?
     - **Novelty:** This model uses unsupervised graph anomaly detection algorithms to produce pseudo labels to supervise graph neural network frameworks.
+- **1.4. Graph Data Augmentation** 
+  - **1.4.1. GAug** [\[lab repo\]](https://github.com/DM2-ND/GAug) [\[src repo\]](https://github.com/zhao-tong/GAug)
+    - **Paper:** *Data Augmentation for Graph Neural Networks* (**AAAI 2021**) [\[download\]](https://arxiv.org/pdf/2006.06830.pdf)
+    - **Leading author:** Tong Zhao (tzhao2@nd.edu)
+    - **Usage:** How can we perform graph data augmentation for graph neural networks (GNNs) in the context of improving semi-supervised node-classification?
+    - **Novelty:** It shows that neural edge predictors can effectively encode classhomophilic structure to promote intra-class edges and demote inter-class edges in given graph structure, and introduces a novel framework that leverages these insights to improve performance in GNN-based node classification via edge prediction.
 
 **Chapter 2. Information Extraction (IE)** 
 - **2.1. Scientific Named Entity Recognition (SciNER)** 

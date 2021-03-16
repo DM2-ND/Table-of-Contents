@@ -58,6 +58,12 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Leading author:** Daheng Wang (dwang8@nd.edu)
     - **Usage:** Can we extract information from semi-structured webpages provides valuable long-tailed facts for augmenting knowledge graph?
     - **Novelty:** It is a novel relational table representation learning approach considering both the intra- and inter-table contextual information.
+- **2.3. Intent Detection**
+  - **2.3.1. ReferInt** [\[lab repo\]](https://github.com/DM2-ND/ReferInt)
+    - **Paper:** *Identifying Referential Intention with Heterogeneous Contexts* (**WWW 2020**) [\[download\]](https://dl.acm.org/doi/abs/10.1145/3366423.3380175)
+    - **Leading author:** Wenhao Yu (wyu1@nd.edu)
+    - **Usage:** Citing, quoting, and forwarding & commenting behaviors are widely seen in academia, news media, and social media. This work identifies the referential intention which motivates the action of using the referred (e.g., cited, quoted, and retweeted) source and content to support their claims.
+    - **Novelty:** It is a novel neural framework with Interactive Hierarchical Attention (IHA) to identify the intention of referential behavior by properly aggregating the heterogeneous contexts, inclduing referred content (e.g., a cited paper), local context (e.g., the sentence citing the paper), neighboring context (e.g., the former and latter sentences), and network context (e.g., the academic network of authors, affiliations, and keywords).
 
 **Chapter 3. Natural Language Generation (NLG)**
 - **3.1. Methodlogies** 

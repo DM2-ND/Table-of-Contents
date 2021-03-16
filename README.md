@@ -68,8 +68,14 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Leading author:** Daheng Wang (dwang8@nd.edu)
     - **Usage:** Can we extract information from semi-structured webpages provides valuable long-tailed facts for augmenting knowledge graph?
     - **Novelty:** It is a novel relational table representation learning approach considering both the intra- and inter-table contextual information.
-- **2.4. Intent Detection**
-  - **2.4.1. ReferInt** [\[lab repo\]](https://github.com/DM2-ND/ReferInt)
+- **2.4. Temporal Fact IE**
+  - **2.4.1. TFWIN** [\[lab repo\]](https://github.com/DM2-ND/TFWIN)
+    - **Paper:** *A Novel Unsupervised Approach for Precise Temporal Slot Filling from Incomplete and Noisy Temporal Contexts* (**WWW 2019**) [\[download\]](http://www.meng-jiang.com/pubs/tfwin-www19/tfwin-www19-paper.pdf)
+    - **Leading author:** Xueying Wang (xwang41@nd.edu)
+    - **Usage:** Can AI read news articles and then fill in temporal slots such as (vicente_fox, per:is_president_of, , [  ,  ]) as (entity, attribute, value, [beginTime, endTime])? The first slot  is the value of a specific attribute (e.g., country's president) for an entity (e.g., the person "vicente_fox"). Here the value should be a country's name. The second and third slots are the beginning and ending time points of the attribute value being valid.
+    - **Novelty:** It is an unsupervised approach of two modules that mutually enhance each other: one is a reliability estimator on fact extractors conditionally to the temporal contexts; the other is a fact trustworthiness estimator based on the extractor’s reliability. The iterative learning process reduces the noise of the extractions.
+- **2.5. Intent Detection**
+  - **2.5.1. ReferInt** [\[lab repo\]](https://github.com/DM2-ND/ReferInt)
     - **Paper:** *Identifying Referential Intention with Heterogeneous Contexts* (**WWW 2020**) [\[download\]](https://dl.acm.org/doi/abs/10.1145/3366423.3380175)
     - **Leading author:** Wenhao Yu (wyu1@nd.edu)
     - **Usage:** Citing, quoting, and forwarding & commenting behaviors are widely seen in academia, news media, and social media. This work identifies the referential intention which motivates the action of using the referred (e.g., cited, quoted, and retweeted) source and content to support their claims.

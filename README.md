@@ -12,11 +12,16 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Usage:** XXX
     - **Novelty:** XXX
 - **1.2. Graph Anomaly Detection** 
-  - **AOO** [\[lab repo\]](https://github.com/DM2-ND/AOO)
+  - **1.2.1. AOO** [\[lab repo\]](https://github.com/DM2-ND/AOO)
     - **Paper:** *Actionable Objective Optimization for Suspicious Behavior Detection on Large Bipartite Graphs* (**BigData 2018**) [\[download\]](https://tzhao.io/files/papers/BigData18-aoo.pdf)
     - **Leading author:** Tong Zhao (tzhao2@nd.edu)
     - **Usage:** Given "who-reviews-what" data on e-commercial platforms, can we deliver an automated solution to accurately suspend fake reviewers and/or bully buyers?
     - **Novelty:** This model learns to measure the suspiciousness of nodes by simultaneously minimizing the loss (e.g., false reviews) and maximizing the profit (e.g., sales).
+  - **1.2.2. GAL** [\[lab repo\]](https://github.com/DM2-ND/GAL) [\[src repo\]](https://github.com/zhao-tong/Graph-Anomaly-Loss)
+    - **Paper:** *Error-Bounded Graph Anomaly Loss for GNNs* (**CIKM 2020**) [\[download\]](https://dl.acm.org/doi/pdf/10.1145/3340531.3411979)
+    - **Leading author:** Tong Zhao (tzhao2@nd.edu)
+    - **Usage:** Can we learn node representations in an *unsupervised* way on bipartite graphs for the tasks of outlier detection or dense block detection?
+    - **Novelty:** This model uses unsupervised graph anomaly detection algorithms to produce pseudo labels to supervise graph neural network frameworks.
 
 **Chapter 2. Information Extraction** 
 - **2.1. Scientific Named Entity Recognition (SciNER)** 

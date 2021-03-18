@@ -11,7 +11,7 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Leading author:** Daheng Wang (dwang8@nd.edu)
     - **Usage:** Given user behavior data (e.g., reading behaviors on News App), can we learn user representations that preserve spatiotemporal patterns of a variety of periodicity (e.g., hourly, weekly, and weekday patterns)? The representations can be used for demongraphic prediction (sex, age, etc.) and recommendation.
     - **Novelty:** It leverages the Calendar System as a knowledge graph to enhance graph neural networks on temporal graph data of user behaviors.
-  - **1.1.2. CoEvoGNN**
+  - **1.1.2. CoEvoGNN** [\[lab repo\]](https://github.com/DM2-ND/CoEvoGNN)
     - **Paper:** *Learning Attribute-Structure Co-Evolutions in Dynamic Graphs* (**KDD-DLG 2020 Best Paper**) [\[download\]](http://www.meng-jiang.com/pubs/coevognns-dlg20/coevognns-dlg20-paper.pdf)
     - **Leading author:** Daheng Wang (dwang8@nd.edu)
     - **Usage:** It learns node embeddings for forecasting change of node attributes and birth and death of links over time.

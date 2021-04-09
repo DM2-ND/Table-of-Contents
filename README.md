@@ -16,6 +16,9 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Leading author:** Daheng Wang (dwang8@nd.edu)
     - **Usage:** It learns node embeddings for forecasting change of node attributes and birth and death of links over time.
     - **Novelty:** It is a novel framework for modeling dynamic attributed graph sequence. It preserves the impact of earlier graphs on the current graph by embedding generation through the sequence. It has a temporal self-attention mechanism to model long-range dependencies in the evolutionary process. Moreover, it optimizes model parameters jointly on two dynamic tasks, attribute inference and link prediction over time. So the model can capture the coevolutionary patterns of attribute change and link formation.
+  - **1.1.3. CatchTartan** [\[lab repo\]](https://github.com/DM2-ND/CatchTartan)
+    - **Paper:** *CatchTartan: Representing and Summarizing Dynamic Multicontextual Behaviors* (**KDD 2016**) [\[download\]](http://www.meng-jiang.com/pubs/catchtartan-kdd16/catchtartan-kdd16-paper.pdf)
+    - **Leading author:** Meng Jiang (mjiang2@nd.edu)
 - **1.2. Learning Node Complementarity**
   - **1.2.1. LearnSuc** [\[lab repo\]](https://github.com/DM2-ND/Learnsuc)
     - **Paper:** *Multi-Type Itemset Embedding for Learning Behavior Success* (**KDD 2018**) [\[download\]](http://www.meng-jiang.com/pubs/learnsuc-kdd18/learnsuc-kdd18-paper.pdf)
@@ -28,16 +31,28 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Usage:** Can we learn the complementarity among researchers for effective teaming?
     - **Novelty:** It proposes a novel measurement of complementarity to replace similarity in representation learning frameworks.
 - **1.3. Graph Anomaly Detection** 
-  - **1.3.1. AOO** [\[lab repo\]](https://github.com/DM2-ND/AOO)
-    - **Paper:** *Actionable Objective Optimization for Suspicious Behavior Detection on Large Bipartite Graphs* (**BigData 2018**) [\[download\]](https://tzhao.io/files/papers/BigData18-aoo.pdf)
-    - **Leading author:** Tong Zhao (tzhao2@nd.edu)
-    - **Usage:** Given "who-reviews-what" data on e-commercial platforms, can we deliver an automated solution to accurately suspend fake reviewers and/or bully buyers?
-    - **Novelty:** This model learns to measure the suspiciousness of nodes by simultaneously minimizing the loss (e.g., false reviews) and maximizing the profit (e.g., sales).
-  - **1.3.2. GAL** [\[lab repo\]](https://github.com/DM2-ND/GAL) [\[src repo\]](https://github.com/zhao-tong/Graph-Anomaly-Loss)
+  - **1.3.1. GAL** [\[lab repo\]](https://github.com/DM2-ND/GAL) [\[src repo\]](https://github.com/zhao-tong/Graph-Anomaly-Loss)
     - **Paper:** *Error-Bounded Graph Anomaly Loss for GNNs* (**CIKM 2020**) [\[download\]](https://dl.acm.org/doi/pdf/10.1145/3340531.3411979)
     - **Leading author:** Tong Zhao (tzhao2@nd.edu)
     - **Usage:** Can we learn node representations in an *unsupervised* way on bipartite graphs for the tasks of graph anomaly detection?
     - **Novelty:** This model uses unsupervised graph anomaly detection algorithms to produce pseudo labels to supervise the training of graph neural network frameworks.
+  - **1.3.2. AOO** [\[lab repo\]](https://github.com/DM2-ND/AOO)
+    - **Paper:** *Actionable Objective Optimization for Suspicious Behavior Detection on Large Bipartite Graphs* (**BigData 2018**) [\[download\]](https://tzhao.io/files/papers/BigData18-aoo.pdf)
+    - **Leading author:** Tong Zhao (tzhao2@nd.edu)
+    - **Usage:** Given "who-reviews-what" data on e-commercial platforms, can we deliver an automated solution to accurately suspend fake reviewers and/or bully buyers?
+    - **Novelty:** This model learns to measure the suspiciousness of nodes by simultaneously minimizing the loss (e.g., false reviews) and maximizing the profit (e.g., sales).
+  - **1.3.3. LockInfer** [\[lab repo\]](https://github.com/DM2-ND/LockInfer)
+    - **Paper:** *Inferring Strange Behavior from Connectivity Pattern in Social Networks* (**PAKDD 2014**) [\[download\]](http://www.meng-jiang.com/pubs/lockinfer-pakdd14/lockinfer-pakdd14-paper.pdf)
+    - **Paper:** *Inferring Lockstep Behavior from Connectivity Pattern in Large Graphs* (**KAIS 2016**) [\[download\]](http://www.meng-jiang.com/pubs/lockinfer-kais16/lockinfer-kais16-paper.pdf)
+    - **Leading author:** Meng Jiang (mjiang2@nd.edu)
+  - **1.3.4. CatchSync** [\[lab repo\]](https://github.com/DM2-ND/CatchSync)
+    - **Paper:** *CatchSync: Catching Synchronized Behavior in Large Directed Graphs* (**KDD 2014**) [\[download\]](http://www.meng-jiang.com/pubs/catchsync-kdd14/catchsync-kdd14-paper.pdf)
+    - **Paper:** *Catching Synchronized Behaviors in Large Networks: A Graph Mining Approach* (**TKDD 2016**) [\[download\]](http://www.meng-jiang.com/pubs/catchsync-tkdd16/catchsync-tkdd16-paper.pdf)
+    - **Leading author:** Meng Jiang (mjiang2@nd.edu)
+  - **1.3.5. CrossSpot** [\[lab repo\]](https://github.com/DM2-ND/CrossSpot)
+    - **Paper:** *A General Suspiciousness Metric for Dense Blocks in Multimodal Data* (**ICDM 2015**) [\[download\]](http://www.meng-jiang.com/pubs/crossspot-icdm15/crossspot-icdm15-paper.pdf)
+    - **Paper:** *Spotting Suspicious Behaviors in Multimodal Data: A General Metric and Algorithms* (**TKDE 2016**) [\[download\]](http://www.meng-jiang.com/pubs/crossspot-tkde16/crossspot-tkde16-paper.pdf)
+    - **Leading author:** Meng Jiang (mjiang2@nd.edu)
 - **1.4. Graph Data Augmentation** 
   - **1.4.1. GAug** [\[lab repo\]](https://github.com/DM2-ND/GAug) [\[src repo\]](https://github.com/zhao-tong/GAug)
     - **Paper:** *Data Augmentation for Graph Neural Networks* (**AAAI 2021**) [\[download\]](https://arxiv.org/pdf/2006.06830.pdf)
@@ -61,7 +76,6 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
   - **2.2.1. MIMO_CFE** [\[lab repo\]](https://github.com/DM2-ND/MIMO_CFE) [\[src repo\]](https://github.com/twjiang/MIMO_CFE)
     - **Paper:** *Multi-Input Multi-Output Sequence Labeling for Joint Extraction of Fact and Condition Tuples from Scientific Text* (**EMNLP 2019**) [\[download\]](http://www.meng-jiang.com/pubs/mimo-emnlp19/mimo-emnlp19-paper.pdf)
     - **Leading author:** Tianwen Jiang (tjiang2@nd.edu)
-
 - **2.3. IE from Tabular Data**
   - **2.3.1. Tablepedia** [\[lab repo\]](https://github.com/DM2-ND/Tablepedia)
     - **Paper:** *Experimental Evidence Extraction in Data Science with Hybrid Table Features and Ensemble Learning* (**WWW 2020**) [\[download\]](https://wyu97.github.io/papers/C2_WWW_2020.pdf)
@@ -74,7 +88,10 @@ Director: Dr. Meng Jiang [\[page\]](http://www.meng-jiang.com/)
     - **Usage:** Can we extract information from semi-structured webpage provides valuable long-tailed facts for augmenting knowledge graph?
     - **Novelty:** It is a novel relational table representation learning approach considering both the intra- and inter-table contextual information.
 - **2.4. Temporal Fact IE**
-  - **2.4.1. TFWIN** [\[lab repo\]](https://github.com/DM2-ND/TFWIN)
+  - **2.4.1. MetaPAD** [\[lab repo\]](https://github.com/DM2-ND/MetaPAD)
+    - **Paper:** *Meta Pattern-driven Attribute Discovery from Massive Text Corpora* (**KDD 2017**) [\[download\]](http://www.meng-jiang.com/pubs/metapad-kdd17/metapad-kdd17-paper.pdf)
+    - **Leading author:** Meng Jiang (mjiang2@nd.edu)
+  - **2.4.2. TFWIN** [\[lab repo\]](https://github.com/DM2-ND/TFWIN)
     - **Paper:** *A Novel Unsupervised Approach for Precise Temporal Slot Filling from Incomplete and Noisy Temporal Contexts* (**WWW 2019**) [\[download\]](http://www.meng-jiang.com/pubs/tfwin-www19/tfwin-www19-paper.pdf)
     - **Leading author:** Xueying Wang (xwang41@nd.edu)
     - **Usage:** Can AI read news articles and then fill in temporal slots such as (vicente_fox, per:is_president_of, __, [ __ , __ ]) as (entity, attribute, value, [beginTime, endTime])? The first slot is the value of a specific attribute (e.g., country's president) for an entity (e.g., the person "vicente_fox"). Here the value should be a country's name. The second and third slots are the beginning and ending time points of the attribute value being valid.
